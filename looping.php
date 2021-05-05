@@ -125,6 +125,22 @@
         ];
         
         // Output: 
+        $items = array(
+            array(   "id"   => "001",
+            "nama" => "Keyboard Logitek",
+            "price" => "60000","description" =>"Keyboard yang mantap untuk kantoran", "source" => "logitek.jpeg"),
+            array(   "id"   => "002",
+            "nama" => "Keyboard MSI",
+            "price" => "300000","description" =>"Keyboard gaming MSI mekanik", "source" => "msi.jpeg"),
+             array(   "id"   => "003",
+            "nama" => "Mouse Genius",
+            "price" => "50000","description" =>"Mouse Genius biar lebih pinter", "source" => "genius.jpeg"),
+            array(   "id"   => "004",
+            "nama" => "Mouse Jerry",
+            "price" => "30000","description" =>"Mouse yang disukai kucing", "source" => "jerry.jpeg")
+
+        );
+        print_r($items);
         
         echo "<h3>Soal No 4 Asterix </h3>";
         /* 
