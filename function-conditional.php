@@ -103,7 +103,7 @@ function palindrome($param)
         }
         else
         {
-            
+
         }
     }
 
@@ -126,6 +126,25 @@ sama dengan 60 dan lebih kecil dari 70 maka akan mereturn string “Cukup” sel
 */
 
 // Code function di sini
+
+function tentukan_nilai($param){
+    if($param >= 85 || $param <=100)
+    {
+        echo "sangat baik";
+    }
+    else if($param >= 70|| $param < 85)
+    {
+        echo "Baik";
+    }
+    else if($param >= 60 || $param < 70)
+    {
+        echo "cukup";
+    }
+    else
+    {
+        echo "kurang";
+    }
+}
 
 // Hapus komentar di bawah ini untuk jalankan code
 // echo tentukan_nilai(98); //Sangat Baik
